@@ -1,0 +1,527 @@
+2020-03-09 22:38:07,535 :: INFO :: HEAD http://localhost:9200/explain_test [status:200 request:0.001s]
+2020-03-09 22:38:07,536 :: INFO :: deleting 'explain_test' index...
+2020-03-09 22:38:07,595 :: INFO :: DELETE http://localhost:9200/explain_test [status:200 request:0.059s]
+2020-03-09 22:38:07,595 :: INFO ::  response: '{'acknowledged': True}'
+2020-03-09 22:38:07,596 :: INFO :: creating 'explain_test' index...
+2020-03-09 22:38:07,816 :: INFO :: PUT http://localhost:9200/explain_test [status:200 request:0.220s]
+2020-03-09 22:38:07,817 :: INFO ::  response: '{'acknowledged': True, 'shards_acknowledged': True, 'index': 'explain_test'}'
+2020-03-09 22:38:07,860 :: INFO :: Found credentials in shared credentials file: ~/.aws/credentials
+2020-03-09 22:47:11,855 :: INFO :: HEAD http://localhost:9200/explain_test [status:200 request:0.002s]
+2020-03-09 22:47:11,856 :: INFO :: deleting 'explain_test' index...
+2020-03-09 22:47:11,902 :: INFO :: DELETE http://localhost:9200/explain_test [status:200 request:0.046s]
+2020-03-09 22:47:11,903 :: INFO ::  response: '{'acknowledged': True}'
+2020-03-09 22:47:11,903 :: INFO :: creating 'explain_test' index...
+2020-03-09 22:47:12,092 :: INFO :: PUT http://localhost:9200/explain_test [status:200 request:0.189s]
+2020-03-09 22:47:12,093 :: INFO ::  response: '{'acknowledged': True, 'shards_acknowledged': True, 'index': 'explain_test'}'
+2020-03-09 22:47:12,131 :: INFO :: Found credentials in shared credentials file: ~/.aws/credentials
+2020-03-09 22:49:29,900 :: INFO :: inserting data in 'explain_test' index...
+2020-03-09 22:49:30,558 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.580s]
+2020-03-09 22:49:30,566 :: INFO ::  '500' document inserted
+2020-03-09 22:51:19,174 :: INFO :: inserting data in 'explain_test' index...
+2020-03-09 22:51:19,753 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.476s]
+2020-03-09 22:51:19,757 :: INFO ::  '1000' document inserted
+2020-03-09 22:52:45,023 :: INFO :: inserting data in 'explain_test' index...
+2020-03-09 22:52:45,592 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.469s]
+2020-03-09 22:52:45,600 :: INFO ::  '1500' document inserted
+2020-03-09 22:54:15,817 :: INFO :: inserting data in 'explain_test' index...
+2020-03-09 22:54:16,371 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.446s]
+2020-03-09 22:54:16,378 :: INFO ::  '2000' document inserted
+2020-03-09 22:56:55,034 :: INFO :: inserting data in 'explain_test' index...
+2020-03-09 22:56:55,504 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.400s]
+2020-03-09 22:56:55,509 :: INFO ::  '2500' document inserted
+2020-03-10 00:58:58,746 :: INFO :: HEAD http://localhost:9200/explain_test [status:200 request:0.002s]
+2020-03-10 00:58:58,746 :: INFO :: deleting 'explain_test' index...
+2020-03-10 00:58:58,825 :: INFO :: DELETE http://localhost:9200/explain_test [status:200 request:0.079s]
+2020-03-10 00:58:58,826 :: INFO ::  response: '{'acknowledged': True}'
+2020-03-10 00:58:58,827 :: INFO :: creating 'explain_test' index...
+2020-03-10 00:58:59,029 :: INFO :: PUT http://localhost:9200/explain_test [status:200 request:0.201s]
+2020-03-10 00:58:59,030 :: INFO ::  response: '{'acknowledged': True, 'shards_acknowledged': True, 'index': 'explain_test'}'
+2020-03-10 00:58:59,053 :: INFO :: Found credentials in shared credentials file: ~/.aws/credentials
+2020-03-10 01:00:38,648 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 01:00:39,382 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.623s]
+2020-03-10 01:00:39,390 :: INFO ::  '500' document inserted
+2020-03-10 01:02:23,894 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 01:02:24,438 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.440s]
+2020-03-10 01:02:24,442 :: INFO ::  '1000' document inserted
+2020-03-10 01:06:05,864 :: INFO :: HEAD http://localhost:9200/explain_test [status:200 request:0.002s]
+2020-03-10 01:06:05,887 :: INFO :: Found credentials in shared credentials file: ~/.aws/credentials
+2020-03-10 01:06:05,933 :: INFO ::  loading data from position '1000' 
+2020-03-10 01:06:05,933 :: INFO ::  loading data from amazon s3 
+2020-03-10 01:07:37,279 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 01:07:37,868 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.474s]
+2020-03-10 01:07:37,877 :: INFO ::  '1500' document inserted
+2020-03-10 01:07:37,885 :: INFO ::  loading data from amazon s3 
+2020-03-10 01:09:08,615 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 01:09:09,268 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.521s]
+2020-03-10 01:09:09,273 :: INFO ::  '2000' document inserted
+2020-03-10 01:09:09,279 :: INFO ::  loading data from amazon s3 
+2020-03-10 01:12:41,816 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 01:12:42,404 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.493s]
+2020-03-10 01:12:42,409 :: INFO ::  '2500' document inserted
+2020-03-10 01:12:42,416 :: INFO ::  loading data from amazon s3 
+2020-03-10 01:17:34,404 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 01:17:34,992 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.492s]
+2020-03-10 01:17:34,998 :: INFO ::  '3000' document inserted
+2020-03-10 01:17:35,006 :: INFO ::  loading data from amazon s3 
+2020-03-10 01:26:24,511 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 01:26:25,092 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.502s]
+2020-03-10 01:26:25,096 :: INFO ::  '3500' document inserted
+2020-03-10 01:26:25,104 :: INFO ::  loading data from amazon s3 
+2020-03-10 01:28:48,678 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 01:28:49,266 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.504s]
+2020-03-10 01:28:49,270 :: INFO ::  '4000' document inserted
+2020-03-10 01:28:49,278 :: INFO ::  loading data from amazon s3 
+2020-03-10 01:31:12,232 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 01:31:12,839 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.500s]
+2020-03-10 01:31:12,849 :: INFO ::  '4500' document inserted
+2020-03-10 01:31:12,859 :: INFO ::  loading data from amazon s3 
+2020-03-10 01:32:54,919 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 01:32:55,479 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.454s]
+2020-03-10 01:32:55,486 :: INFO ::  '5000' document inserted
+2020-03-10 01:32:55,493 :: INFO ::  loading data from amazon s3 
+2020-03-10 01:34:42,019 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 01:34:42,597 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.470s]
+2020-03-10 01:34:42,603 :: INFO ::  '5500' document inserted
+2020-03-10 01:34:42,610 :: INFO ::  loading data from amazon s3 
+2020-03-10 01:36:13,212 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 01:36:13,823 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.507s]
+2020-03-10 01:36:13,828 :: INFO ::  '6000' document inserted
+2020-03-10 01:36:13,833 :: INFO ::  loading data from amazon s3 
+2020-03-10 01:37:36,707 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 01:37:37,215 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.408s]
+2020-03-10 01:37:37,219 :: INFO ::  '6500' document inserted
+2020-03-10 01:37:37,224 :: INFO ::  loading data from amazon s3 
+2020-03-10 01:38:58,876 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 01:38:59,363 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.388s]
+2020-03-10 01:38:59,367 :: INFO ::  '7000' document inserted
+2020-03-10 01:38:59,373 :: INFO ::  loading data from amazon s3 
+2020-03-10 01:40:25,231 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 01:40:25,722 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.388s]
+2020-03-10 01:40:25,730 :: INFO ::  '7500' document inserted
+2020-03-10 01:40:25,737 :: INFO ::  loading data from amazon s3 
+2020-03-10 01:42:09,314 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 01:42:09,862 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.446s]
+2020-03-10 01:42:09,866 :: INFO ::  '8000' document inserted
+2020-03-10 01:42:09,871 :: INFO ::  loading data from amazon s3 
+2020-03-10 01:46:47,589 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 01:46:48,118 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.422s]
+2020-03-10 01:46:48,123 :: INFO ::  '8500' document inserted
+2020-03-10 01:46:48,129 :: INFO ::  loading data from amazon s3 
+2020-03-10 01:48:47,610 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 01:48:48,357 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.552s]
+2020-03-10 01:48:48,361 :: INFO ::  '9000' document inserted
+2020-03-10 01:48:48,368 :: INFO ::  loading data from amazon s3 
+2020-03-10 01:53:08,856 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 01:53:09,460 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.494s]
+2020-03-10 01:53:09,469 :: INFO ::  '9500' document inserted
+2020-03-10 01:53:09,478 :: INFO ::  loading data from amazon s3 
+2020-03-10 01:55:14,618 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 01:55:15,186 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.465s]
+2020-03-10 01:55:15,190 :: INFO ::  '10000' document inserted
+2020-03-10 01:55:15,196 :: INFO ::  loading data from amazon s3 
+2020-03-10 01:57:41,419 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 01:57:42,004 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.485s]
+2020-03-10 01:57:42,009 :: INFO ::  '10500' document inserted
+2020-03-10 01:57:42,015 :: INFO ::  loading data from amazon s3 
+2020-03-10 02:02:32,016 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 02:02:32,607 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.490s]
+2020-03-10 02:02:32,611 :: INFO ::  '11000' document inserted
+2020-03-10 02:02:32,621 :: INFO ::  loading data from amazon s3 
+2020-03-10 02:06:15,252 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 02:06:15,841 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.480s]
+2020-03-10 02:06:15,850 :: INFO ::  '11500' document inserted
+2020-03-10 02:06:15,855 :: INFO ::  loading data from amazon s3 
+2020-03-10 02:09:22,162 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 02:09:22,682 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.413s]
+2020-03-10 02:09:22,686 :: INFO ::  '12000' document inserted
+2020-03-10 02:09:22,691 :: INFO ::  loading data from amazon s3 
+2020-03-10 02:14:17,873 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 02:14:18,460 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.489s]
+2020-03-10 02:14:18,463 :: INFO ::  '12500' document inserted
+2020-03-10 02:14:18,472 :: INFO ::  loading data from amazon s3 
+2020-03-10 02:15:42,266 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 02:15:42,819 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.449s]
+2020-03-10 02:15:42,823 :: INFO ::  '13000' document inserted
+2020-03-10 02:15:42,829 :: INFO ::  loading data from amazon s3 
+2020-03-10 02:18:56,719 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 02:18:57,289 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.463s]
+2020-03-10 02:18:57,295 :: INFO ::  '13500' document inserted
+2020-03-10 02:18:57,301 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:07:40,294 :: INFO :: HEAD http://localhost:9200/explain_test [status:200 request:0.002s]
+2020-03-10 12:07:40,295 :: INFO :: deleting 'explain_test' index...
+2020-03-10 12:07:40,378 :: INFO :: DELETE http://localhost:9200/explain_test [status:200 request:0.082s]
+2020-03-10 12:07:40,378 :: INFO ::  response: '{'acknowledged': True}'
+2020-03-10 12:07:40,378 :: INFO :: creating 'explain_test' index...
+2020-03-10 12:07:40,584 :: INFO :: PUT http://localhost:9200/explain_test [status:200 request:0.205s]
+2020-03-10 12:07:40,585 :: INFO ::  response: '{'acknowledged': True, 'shards_acknowledged': True, 'index': 'explain_test'}'
+2020-03-10 12:07:40,631 :: INFO :: Found credentials in shared credentials file: ~/.aws/credentials
+2020-03-10 12:07:40,675 :: INFO ::  start loading from position '0' 
+2020-03-10 12:07:40,675 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:08:52,156 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:08:52,769 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.533s]
+2020-03-10 12:08:52,774 :: INFO ::  '500' document inserted
+2020-03-10 12:08:52,782 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:10:03,225 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:10:03,709 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.381s]
+2020-03-10 12:10:03,714 :: INFO ::  '1000' document inserted
+2020-03-10 12:10:03,722 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:11:14,975 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:11:15,465 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.383s]
+2020-03-10 12:11:15,470 :: INFO ::  '1500' document inserted
+2020-03-10 12:11:15,480 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:12:25,773 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:12:26,245 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.369s]
+2020-03-10 12:12:26,250 :: INFO ::  '2000' document inserted
+2020-03-10 12:12:26,260 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:13:37,605 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:13:38,067 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.372s]
+2020-03-10 12:13:38,072 :: INFO ::  '2500' document inserted
+2020-03-10 12:13:38,081 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:14:49,743 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:14:50,218 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.375s]
+2020-03-10 12:14:50,222 :: INFO ::  '3000' document inserted
+2020-03-10 12:14:50,232 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:16:03,870 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:16:04,348 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.376s]
+2020-03-10 12:16:04,353 :: INFO ::  '3500' document inserted
+2020-03-10 12:16:04,364 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:17:15,735 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:17:16,174 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.364s]
+2020-03-10 12:17:16,179 :: INFO ::  '4000' document inserted
+2020-03-10 12:17:16,188 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:18:28,556 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:18:29,008 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.375s]
+2020-03-10 12:18:29,016 :: INFO ::  '4500' document inserted
+2020-03-10 12:18:29,031 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:19:45,671 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:19:46,144 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.381s]
+2020-03-10 12:19:46,148 :: INFO ::  '5000' document inserted
+2020-03-10 12:19:46,159 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:20:58,687 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:20:59,151 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.385s]
+2020-03-10 12:20:59,155 :: INFO ::  '5500' document inserted
+2020-03-10 12:20:59,166 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:22:13,347 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:22:13,797 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.373s]
+2020-03-10 12:22:13,802 :: INFO ::  '6000' document inserted
+2020-03-10 12:22:13,817 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:24:33,171 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:24:33,679 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.389s]
+2020-03-10 12:24:33,688 :: INFO ::  '6500' document inserted
+2020-03-10 12:24:33,702 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:25:45,277 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:25:45,734 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.377s]
+2020-03-10 12:25:45,739 :: INFO ::  '7000' document inserted
+2020-03-10 12:25:45,751 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:26:57,159 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:26:57,629 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.389s]
+2020-03-10 12:26:57,633 :: INFO ::  '7500' document inserted
+2020-03-10 12:26:57,646 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:28:07,640 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:28:08,093 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.376s]
+2020-03-10 12:28:08,097 :: INFO ::  '8000' document inserted
+2020-03-10 12:28:08,110 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:29:20,752 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:29:21,212 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.379s]
+2020-03-10 12:29:21,216 :: INFO ::  '8500' document inserted
+2020-03-10 12:29:21,229 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:30:29,779 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:30:30,252 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.390s]
+2020-03-10 12:30:30,256 :: INFO ::  '9000' document inserted
+2020-03-10 12:30:30,272 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:33:47,563 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:33:48,027 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.387s]
+2020-03-10 12:33:48,032 :: INFO ::  '9500' document inserted
+2020-03-10 12:33:48,048 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:34:59,460 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:34:59,935 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.397s]
+2020-03-10 12:34:59,939 :: INFO ::  '10000' document inserted
+2020-03-10 12:34:59,954 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:36:12,063 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:36:12,588 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.425s]
+2020-03-10 12:36:12,599 :: INFO ::  '10500' document inserted
+2020-03-10 12:36:12,616 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:37:23,819 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:37:24,328 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.410s]
+2020-03-10 12:37:24,332 :: INFO ::  '11000' document inserted
+2020-03-10 12:37:24,348 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:38:54,028 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:38:54,577 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.447s]
+2020-03-10 12:38:54,583 :: INFO ::  '11500' document inserted
+2020-03-10 12:38:54,599 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:40:08,244 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:40:08,723 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.396s]
+2020-03-10 12:40:08,727 :: INFO ::  '12000' document inserted
+2020-03-10 12:40:08,744 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:42:28,852 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:42:29,331 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.379s]
+2020-03-10 12:42:29,335 :: INFO ::  '12500' document inserted
+2020-03-10 12:42:29,351 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:43:37,458 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:43:37,942 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.383s]
+2020-03-10 12:43:37,946 :: INFO ::  '13000' document inserted
+2020-03-10 12:43:37,963 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:44:48,628 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:44:49,072 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.376s]
+2020-03-10 12:44:49,076 :: INFO ::  '13500' document inserted
+2020-03-10 12:44:49,091 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:46:02,050 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:46:02,550 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.395s]
+2020-03-10 12:46:02,554 :: INFO ::  '14000' document inserted
+2020-03-10 12:46:02,573 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:47:18,968 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:47:19,460 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.392s]
+2020-03-10 12:47:19,464 :: INFO ::  '14500' document inserted
+2020-03-10 12:47:19,482 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:48:34,000 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:48:34,474 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.371s]
+2020-03-10 12:48:34,480 :: INFO ::  '15000' document inserted
+2020-03-10 12:48:34,498 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:49:49,484 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:49:49,927 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.371s]
+2020-03-10 12:49:49,931 :: INFO ::  '15500' document inserted
+2020-03-10 12:49:49,951 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:51:01,147 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:51:01,623 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.375s]
+2020-03-10 12:51:01,628 :: INFO ::  '16000' document inserted
+2020-03-10 12:51:01,647 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:52:15,389 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:52:15,893 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.390s]
+2020-03-10 12:52:15,897 :: INFO ::  '16500' document inserted
+2020-03-10 12:52:15,916 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:54:04,342 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:54:04,822 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.376s]
+2020-03-10 12:54:04,826 :: INFO ::  '17000' document inserted
+2020-03-10 12:54:04,846 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:55:20,098 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:55:20,576 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.375s]
+2020-03-10 12:55:20,581 :: INFO ::  '17500' document inserted
+2020-03-10 12:55:20,599 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:56:33,163 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:56:33,607 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.368s]
+2020-03-10 12:56:33,611 :: INFO ::  '18000' document inserted
+2020-03-10 12:56:33,634 :: INFO ::  loading data from amazon s3 
+2020-03-10 12:57:50,294 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 12:57:50,747 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.376s]
+2020-03-10 12:57:50,751 :: INFO ::  '18500' document inserted
+2020-03-10 12:57:50,775 :: INFO ::  loading data from amazon s3 
+2020-03-10 13:00:07,116 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 13:00:07,582 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.382s]
+2020-03-10 13:00:07,586 :: INFO ::  '19000' document inserted
+2020-03-10 13:00:07,609 :: INFO ::  loading data from amazon s3 
+2020-03-10 13:01:21,030 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 13:01:21,483 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.376s]
+2020-03-10 13:01:21,487 :: INFO ::  '19500' document inserted
+2020-03-10 13:01:21,511 :: INFO ::  loading data from amazon s3 
+2020-03-10 13:02:35,532 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 13:02:35,984 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.373s]
+2020-03-10 13:02:35,991 :: INFO ::  '20000' document inserted
+2020-03-10 13:02:36,021 :: INFO ::  loading data from amazon s3 
+2020-03-10 13:03:48,383 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 13:03:48,888 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.403s]
+2020-03-10 13:03:48,897 :: INFO ::  '20500' document inserted
+2020-03-10 13:03:48,925 :: INFO ::  loading data from amazon s3 
+2020-03-10 13:04:05,884 :: INFO :: inserting data in 'explain_test' index...
+2020-03-10 13:04:06,046 :: INFO :: POST http://localhost:9200/explain_test/_bulk?refresh=true [status:200 request:0.117s]
+2020-03-10 13:04:06,047 :: INFO ::  '20616' document inserted
+2020-03-12 15:35:20,503 :: INFO :: localhost
+2020-03-12 15:35:20,503 :: INFO :: 9200
+2020-03-12 15:35:20,504 :: INFO :: explain_test
+2020-03-12 15:35:20,504 :: INFO :: 0
+2020-03-12 15:35:20,504 :: INFO :: progress.json
+2020-03-12 15:35:20,504 :: INFO :: s3-dev-technical-test
+2020-03-12 15:35:20,505 :: INFO :: 1000
+2020-03-12 15:35:39,212 :: INFO :: 127.0.0.1
+2020-03-12 15:35:39,212 :: INFO :: 9200
+2020-03-12 15:35:39,212 :: INFO :: explain_test
+2020-03-12 15:35:39,213 :: INFO :: 0
+2020-03-12 15:35:39,213 :: INFO :: progress.json
+2020-03-12 15:35:39,213 :: INFO :: s3-dev-technical-test
+2020-03-12 15:35:39,213 :: INFO :: 1000
+2020-03-12 15:35:46,613 :: INFO :: 127.0.0.1
+2020-03-12 15:35:46,613 :: INFO :: 5601
+2020-03-12 15:35:46,614 :: INFO :: explain_test
+2020-03-12 15:35:46,614 :: INFO :: 0
+2020-03-12 15:35:46,614 :: INFO :: progress.json
+2020-03-12 15:35:46,614 :: INFO :: s3-dev-technical-test
+2020-03-12 15:35:46,615 :: INFO :: 1000
+2020-03-12 15:35:53,025 :: INFO :: 127.0.0.1
+2020-03-12 15:35:53,025 :: INFO :: 5601
+2020-03-12 15:35:53,026 :: INFO :: explain_test
+2020-03-12 15:35:53,026 :: INFO :: 1
+2020-03-12 15:35:53,026 :: INFO :: progress.json
+2020-03-12 15:35:53,026 :: INFO :: s3-dev-technical-test
+2020-03-12 15:35:53,026 :: INFO :: 1000
+2020-03-12 17:07:27,443 :: INFO :: creating 'explain_test_1' index...
+2020-03-12 17:07:27,644 :: INFO :: PUT http://localhost:9200/explain_test_1 [status:200 request:0.201s]
+2020-03-12 17:07:27,644 :: INFO ::  response: '{'acknowledged': True, 'shards_acknowledged': True, 'index': 'explain_test_1'}'
+2020-03-12 17:07:27,676 :: INFO :: Found credentials in shared credentials file: ~/.aws/credentials
+2020-03-12 17:07:27,722 :: INFO ::  start loading from position '0' 
+2020-03-12 17:07:27,722 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:09:46,767 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:09:48,923 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:2.040s]
+2020-03-12 17:09:48,931 :: INFO ::  '500' document inserted
+2020-03-12 17:09:48,941 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:11:03,361 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:11:04,139 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.670s]
+2020-03-12 17:11:04,148 :: INFO ::  '1000' document inserted
+2020-03-12 17:11:04,157 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:12:48,182 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:12:48,842 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.548s]
+2020-03-12 17:12:48,850 :: INFO ::  '1500' document inserted
+2020-03-12 17:12:48,858 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:14:09,869 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:14:10,604 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.633s]
+2020-03-12 17:14:10,608 :: INFO ::  '2000' document inserted
+2020-03-12 17:14:10,614 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:15:44,256 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:15:44,886 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.547s]
+2020-03-12 17:15:44,896 :: INFO ::  '2500' document inserted
+2020-03-12 17:15:44,904 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:17:01,259 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:17:01,833 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.469s]
+2020-03-12 17:17:01,837 :: INFO ::  '3000' document inserted
+2020-03-12 17:17:01,847 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:18:28,536 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:18:29,117 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.480s]
+2020-03-12 17:18:29,124 :: INFO ::  '3500' document inserted
+2020-03-12 17:18:29,133 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:19:51,273 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:19:51,860 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.483s]
+2020-03-12 17:19:51,869 :: INFO ::  '4000' document inserted
+2020-03-12 17:19:51,877 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:21:08,305 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:21:08,827 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.422s]
+2020-03-12 17:21:08,833 :: INFO ::  '4500' document inserted
+2020-03-12 17:21:08,839 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:22:23,304 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:22:23,849 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.452s]
+2020-03-12 17:22:23,854 :: INFO ::  '5000' document inserted
+2020-03-12 17:22:23,859 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:24:12,156 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:24:12,694 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.446s]
+2020-03-12 17:24:12,698 :: INFO ::  '5500' document inserted
+2020-03-12 17:24:12,704 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:25:28,956 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:25:29,496 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.434s]
+2020-03-12 17:25:29,503 :: INFO ::  '6000' document inserted
+2020-03-12 17:25:29,511 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:27:18,527 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:27:19,091 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.465s]
+2020-03-12 17:27:19,095 :: INFO ::  '6500' document inserted
+2020-03-12 17:27:19,101 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:30:04,209 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:30:04,749 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.435s]
+2020-03-12 17:30:04,753 :: INFO ::  '7000' document inserted
+2020-03-12 17:30:04,760 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:31:27,431 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:31:28,013 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.480s]
+2020-03-12 17:31:28,018 :: INFO ::  '7500' document inserted
+2020-03-12 17:31:28,026 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:33:03,543 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:33:04,102 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.456s]
+2020-03-12 17:33:04,126 :: INFO ::  '8000' document inserted
+2020-03-12 17:33:04,132 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:34:23,489 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:34:24,051 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.463s]
+2020-03-12 17:34:24,057 :: INFO ::  '8500' document inserted
+2020-03-12 17:34:24,063 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:36:09,176 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:36:09,732 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.454s]
+2020-03-12 17:36:09,736 :: INFO ::  '9000' document inserted
+2020-03-12 17:36:09,743 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:39:33,657 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:39:34,222 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.458s]
+2020-03-12 17:39:34,226 :: INFO ::  '9500' document inserted
+2020-03-12 17:39:34,233 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:40:58,304 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:40:58,897 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.475s]
+2020-03-12 17:40:58,904 :: INFO ::  '10000' document inserted
+2020-03-12 17:40:58,911 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:42:38,386 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:42:38,973 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.478s]
+2020-03-12 17:42:38,978 :: INFO ::  '10500' document inserted
+2020-03-12 17:42:38,983 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:43:56,865 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:43:57,396 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.439s]
+2020-03-12 17:43:57,400 :: INFO ::  '11000' document inserted
+2020-03-12 17:43:57,407 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:46:17,112 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:46:17,705 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.482s]
+2020-03-12 17:46:17,710 :: INFO ::  '11500' document inserted
+2020-03-12 17:46:17,716 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:47:55,845 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:47:56,378 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.432s]
+2020-03-12 17:47:56,382 :: INFO ::  '12000' document inserted
+2020-03-12 17:47:56,389 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:49:21,667 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:49:22,225 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.455s]
+2020-03-12 17:49:22,232 :: INFO ::  '12500' document inserted
+2020-03-12 17:49:22,238 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:50:43,259 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:50:43,777 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.416s]
+2020-03-12 17:50:43,781 :: INFO ::  '13000' document inserted
+2020-03-12 17:50:43,787 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:52:04,761 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:52:05,304 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.442s]
+2020-03-12 17:52:05,310 :: INFO ::  '13500' document inserted
+2020-03-12 17:52:05,316 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:53:24,863 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:53:25,366 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.414s]
+2020-03-12 17:53:25,374 :: INFO ::  '14000' document inserted
+2020-03-12 17:53:25,382 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:54:43,586 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:54:44,103 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.411s]
+2020-03-12 17:54:44,107 :: INFO ::  '14500' document inserted
+2020-03-12 17:54:44,112 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:56:02,251 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:56:02,793 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.440s]
+2020-03-12 17:56:02,797 :: INFO ::  '15000' document inserted
+2020-03-12 17:56:02,805 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:57:24,791 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:57:25,322 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.428s]
+2020-03-12 17:57:25,327 :: INFO ::  '15500' document inserted
+2020-03-12 17:57:25,332 :: INFO ::  loading data from amazon s3 
+2020-03-12 17:59:41,063 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 17:59:41,646 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.476s]
+2020-03-12 17:59:41,650 :: INFO ::  '16000' document inserted
+2020-03-12 17:59:41,658 :: INFO ::  loading data from amazon s3 
+2020-03-12 18:01:03,765 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 18:01:04,301 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.428s]
+2020-03-12 18:01:04,306 :: INFO ::  '16500' document inserted
+2020-03-12 18:01:04,311 :: INFO ::  loading data from amazon s3 
+2020-03-12 18:02:33,220 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 18:02:33,798 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.480s]
+2020-03-12 18:02:33,805 :: INFO ::  '17000' document inserted
+2020-03-12 18:02:33,813 :: INFO ::  loading data from amazon s3 
+2020-03-12 18:04:12,066 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 18:04:12,572 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.403s]
+2020-03-12 18:04:12,576 :: INFO ::  '17500' document inserted
+2020-03-12 18:04:12,581 :: INFO ::  loading data from amazon s3 
+2020-03-12 18:05:32,703 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 18:05:33,217 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.411s]
+2020-03-12 18:05:33,221 :: INFO ::  '18000' document inserted
+2020-03-12 18:05:33,229 :: INFO ::  loading data from amazon s3 
+2020-03-12 18:06:59,853 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 18:07:00,505 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.566s]
+2020-03-12 18:07:00,511 :: INFO ::  '18500' document inserted
+2020-03-12 18:07:00,518 :: INFO ::  loading data from amazon s3 
+2020-03-12 18:09:21,175 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 18:09:21,736 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.453s]
+2020-03-12 18:09:21,740 :: INFO ::  '19000' document inserted
+2020-03-12 18:09:21,746 :: INFO ::  loading data from amazon s3 
+2020-03-12 18:10:43,781 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 18:10:44,361 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.472s]
+2020-03-12 18:10:44,367 :: INFO ::  '19500' document inserted
+2020-03-12 18:10:44,372 :: INFO ::  loading data from amazon s3 
+2020-03-12 18:12:11,144 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 18:12:11,631 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.414s]
+2020-03-12 18:12:11,635 :: INFO ::  '20000' document inserted
+2020-03-12 18:12:11,641 :: INFO ::  loading data from amazon s3 
+2020-03-12 18:14:41,884 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 18:14:42,436 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.450s]
+2020-03-12 18:14:42,441 :: INFO ::  '20500' document inserted
+2020-03-12 18:14:42,448 :: INFO ::  loading data from amazon s3 
+2020-03-12 18:14:59,704 :: INFO :: inserting data in 'explain_test_1' index...
+2020-03-12 18:14:59,900 :: INFO :: POST http://localhost:9200/explain_test_1/_bulk?refresh=true [status:200 request:0.152s]
+2020-03-12 18:14:59,903 :: INFO ::  '20616' document inserted
