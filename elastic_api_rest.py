@@ -30,7 +30,7 @@ class search_api(Resource): # the class for the search ressource
         if ingestionDate_lt is not None : 
             must_list.append({"range" : {"ingestionDate": {"lt" :ingestionDate_lt}}})
         if ingestionDate_gt is not None : 
-            if 'range' in must_list[-1] : 
+            if ingestionDate_lt is not None : 
                 must_list[-1]['range']['ingestionDate']['gt'] = ingestionDate_gt
             else :
                 must_list.append({"range" : {"ingestionDate": {"gt" :ingestionDate_gt}}})
