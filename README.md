@@ -12,18 +12,21 @@ Pour ce test, le framework *ElasticSearch* a été choisi. Car ce dernier, perme
 
 ### Conception
 
-Le script de migration des données comporte deux fonctions principales : 
+Le script de migration des données *'migration\_s3\_elasticsearch.py'* comporte deux fonctions principales : 
 
 * Une fonction de création d'un index *ElasticSearch* qui va accueillir les données.
 * Une fonction de migration de données qui parcourt les objets du bucket s3 et ingère les données vers l'index *ElasticSearch*.
 
-Pour la conception de l'**API REST** le framework *Flask* a été utilisé. Les fonctions *get* des *API* font la traduction des requêtes *API* vers des requêtes *ElasticSearch* pour ensuite les exécuter et retourner les résultats.
+Pour la conception de l'**API REST** dans le script *'elastic\_api\_rest.py'* le framework *Flask* a été utilisé. Les fonctions *get* des *API* font la traduction des requêtes *API* vers des requêtes *ElasticSearch* pour ensuite les exécuter et retourner les résultats.
+
+Enfin, dans ce repository est fourni un script python *'using\_api\_exemples.py'* avec des exemples d'utilisation de l'**API REST**. Il faut bien sûr d'abord lancer le script de l'**API REST** 
+`python elastic_api_rest.py`
 
 ### Dépendances 
 
-* Copier les *Access key ID* et *Secret access key* dans le fichier *~/.aws/credentials* pour la connexion au bucket. 
+* Copier les *Access key ID* et *Secret access key* dans le fichier `~/.aws/credentials` pour la connexion au bucket. 
 
-* Faire l'installation d'*ElasticSearch* en local ou utiliser un serveur *ElasticSearch* distant (voir **python script.py --help** dans ce dernier cas pour changer le *host*). 
+* Faire l'installation d'*ElasticSearch* en local ou utiliser un serveur *ElasticSearch* distant (voir `python script.py --help` dans ce dernier cas pour changer le *host*). 
 
 * Faire l'installation des librairies python suivantes : **boto3, elasticsearch, flask-restful**
 
